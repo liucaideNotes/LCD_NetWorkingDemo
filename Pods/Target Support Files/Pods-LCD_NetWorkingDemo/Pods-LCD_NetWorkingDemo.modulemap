@@ -1,0 +1,6 @@
+framework module Pods_LCD_NetWorkingDemo {
+  umbrella header "Pods-LCD_NetWorkingDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

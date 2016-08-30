@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (3.4.0)
+  - Just (0.4.7)
+  - SwiftyJSON (2.3.2)
+  - Toast (3.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Just
+  - SwiftyJSON
+  - Toast
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  Just: 946bae197f898da6b49e27e10dbe9dfbf1216f29
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+
+PODFILE CHECKSUM: 286fc725f8f7d88579096100d3a9d01dcfff74c6
+
+COCOAPODS: 1.0.0

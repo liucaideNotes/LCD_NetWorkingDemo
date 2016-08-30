@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB062A941D73398E00AAF3FE /* LCD_JustHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB062A931D73398E00AAF3FE /* LCD_JustHelper.swift */; };
+		AB20E3EF1D73CA31009042D2 /* LCD_Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20E3EE1D73CA31009042D2 /* LCD_Macros.swift */; };
+		AB20E3F11D73DE7C009042D2 /* BusinessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20E3F01D73DE7C009042D2 /* BusinessModel.swift */; };
+		AB20E3F31D73DEEB009042D2 /* BusinessTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20E3F21D73DEEB009042D2 /* BusinessTypeModel.swift */; };
+		AB20E3F51D7401E2009042D2 /* LCD_Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20E3F41D7401E2009042D2 /* LCD_Alamofire.swift */; };
+		AB20E3F71D7401F2009042D2 /* LCD_AlamofireHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB20E3F61D7401F2009042D2 /* LCD_AlamofireHelper.swift */; };
+		AB8CA7511D71C62E0072EE7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CA7501D71C62E0072EE7F /* AppDelegate.swift */; };
+		AB8CA7531D71C62E0072EE7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CA7521D71C62E0072EE7F /* ViewController.swift */; };
+		AB8CA7561D71C62E0072EE7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8CA7541D71C62E0072EE7F /* Main.storyboard */; };
+		AB8CA7581D71C62E0072EE7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8CA7571D71C62E0072EE7F /* Assets.xcassets */; };
+		AB8CA75B1D71C62E0072EE7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8CA7591D71C62E0072EE7F /* LaunchScreen.storyboard */; };
+		AB8CA7731D71E0910072EE7F /* LCD_Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CA7711D71E0910072EE7F /* LCD_Just.swift */; };
+		AB8CA7751D71E0BE0072EE7F /* LCD_API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8CA7741D71E0BE0072EE7F /* LCD_API.swift */; };
+		F847028ABE769C20A1FB7357 /* Pods_LCD_NetWorkingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDFB3E16204EB74DEB0EFA91 /* Pods_LCD_NetWorkingDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EA1B29C681D1CA2DA1743D4 /* Pods-LCD_NetWorkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCD_NetWorkingDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LCD_NetWorkingDemo/Pods-LCD_NetWorkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9302E83EEAA5C38C3E6D7B55 /* Pods-LCD_NetWorkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCD_NetWorkingDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LCD_NetWorkingDemo/Pods-LCD_NetWorkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB062A931D73398E00AAF3FE /* LCD_JustHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_JustHelper.swift; sourceTree = "<group>"; };
+		AB20E3EE1D73CA31009042D2 /* LCD_Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_Macros.swift; sourceTree = "<group>"; };
+		AB20E3F01D73DE7C009042D2 /* BusinessModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessModel.swift; sourceTree = "<group>"; };
+		AB20E3F21D73DEEB009042D2 /* BusinessTypeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTypeModel.swift; sourceTree = "<group>"; };
+		AB20E3F41D7401E2009042D2 /* LCD_Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_Alamofire.swift; sourceTree = "<group>"; };
+		AB20E3F61D7401F2009042D2 /* LCD_AlamofireHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_AlamofireHelper.swift; sourceTree = "<group>"; };
+		AB8CA74D1D71C62E0072EE7F /* LCD_NetWorkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LCD_NetWorkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8CA7501D71C62E0072EE7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB8CA7521D71C62E0072EE7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB8CA7551D71C62E0072EE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB8CA7571D71C62E0072EE7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8CA75A1D71C62E0072EE7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB8CA75C1D71C62E0072EE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB8CA7711D71E0910072EE7F /* LCD_Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_Just.swift; sourceTree = "<group>"; };
+		AB8CA7741D71E0BE0072EE7F /* LCD_API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCD_API.swift; sourceTree = "<group>"; };
+		CDFB3E16204EB74DEB0EFA91 /* Pods_LCD_NetWorkingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCD_NetWorkingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8CA74A1D71C62E0072EE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F847028ABE769C20A1FB7357 /* Pods_LCD_NetWorkingDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6633FFE47F53D95859D94A5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDFB3E16204EB74DEB0EFA91 /* Pods_LCD_NetWorkingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690DB9D9B166BB58AB576091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9302E83EEAA5C38C3E6D7B55 /* Pods-LCD_NetWorkingDemo.debug.xcconfig */,
+				5EA1B29C681D1CA2DA1743D4 /* Pods-LCD_NetWorkingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB8CA7441D71C62E0072EE7F = {
+			isa = PBXGroup;
+			children = (
+				AB8CA76E1D71E0910072EE7F /* LCD_Class */,
+				AB8CA74F1D71C62E0072EE7F /* LCD_NetWorkingDemo */,
+				AB8CA74E1D71C62E0072EE7F /* Products */,
+				690DB9D9B166BB58AB576091 /* Pods */,
+				6633FFE47F53D95859D94A5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8CA74E1D71C62E0072EE7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CA74D1D71C62E0072EE7F /* LCD_NetWorkingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8CA74F1D71C62E0072EE7F /* LCD_NetWorkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB942F0C1D752BDB009EEF4C /* model */,
+				AB8CA7501D71C62E0072EE7F /* AppDelegate.swift */,
+				AB8CA7521D71C62E0072EE7F /* ViewController.swift */,
+				AB8CA7541D71C62E0072EE7F /* Main.storyboard */,
+				AB8CA7571D71C62E0072EE7F /* Assets.xcassets */,
+				AB8CA7591D71C62E0072EE7F /* LaunchScreen.storyboard */,
+				AB8CA75C1D71C62E0072EE7F /* Info.plist */,
+			);
+			path = LCD_NetWorkingDemo;
+			sourceTree = "<group>";
+		};
+		AB8CA76E1D71E0910072EE7F /* LCD_Class */ = {
+			isa = PBXGroup;
+			children = (
+				AB20E3EE1D73CA31009042D2 /* LCD_Macros.swift */,
+				AB8CA7741D71E0BE0072EE7F /* LCD_API.swift */,
+				AB8CA76F1D71E0910072EE7F /* LCD_Alamofire */,
+				AB8CA7701D71E0910072EE7F /* LCD_Just */,
+			);
+			name = LCD_Class;
+			path = LCD_NetWorkingDemo/LCD_Class;
+			sourceTree = "<group>";
+		};
+		AB8CA76F1D71E0910072EE7F /* LCD_Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				AB20E3F41D7401E2009042D2 /* LCD_Alamofire.swift */,
+				AB20E3F61D7401F2009042D2 /* LCD_AlamofireHelper.swift */,
+			);
+			path = LCD_Alamofire;
+			sourceTree = "<group>";
+		};
+		AB8CA7701D71E0910072EE7F /* LCD_Just */ = {
+			isa = PBXGroup;
+			children = (
+				AB8CA7711D71E0910072EE7F /* LCD_Just.swift */,
+				AB062A931D73398E00AAF3FE /* LCD_JustHelper.swift */,
+			);
+			path = LCD_Just;
+			sourceTree = "<group>";
+		};
+		AB942F0C1D752BDB009EEF4C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AB20E3F01D73DE7C009042D2 /* BusinessModel.swift */,
+				AB20E3F21D73DEEB009042D2 /* BusinessTypeModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8CA74C1D71C62E0072EE7F /* LCD_NetWorkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8CA75F1D71C62E0072EE7F /* Build configuration list for PBXNativeTarget "LCD_NetWorkingDemo" */;
+			buildPhases = (
+				C8880867E8A714EB7781C4E3 /* 📦 Check Pods Manifest.lock */,
+				AB8CA7491D71C62E0072EE7F /* Sources */,
+				AB8CA74A1D71C62E0072EE7F /* Frameworks */,
+				AB8CA74B1D71C62E0072EE7F /* Resources */,
+				E55F0CFD5C02862427EDDD84 /* 📦 Embed Pods Frameworks */,
+				655D4E942E3CFA50F5536298 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCD_NetWorkingDemo;
+			productName = LCD_NetWorkingDemo;
+			productReference = AB8CA74D1D71C62E0072EE7F /* LCD_NetWorkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8CA7451D71C62E0072EE7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sifenzi;
+				TargetAttributes = {
+					AB8CA74C1D71C62E0072EE7F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AB8CA7481D71C62E0072EE7F /* Build configuration list for PBXProject "LCD_NetWorkingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8CA7441D71C62E0072EE7F;
+			productRefGroup = AB8CA74E1D71C62E0072EE7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8CA74C1D71C62E0072EE7F /* LCD_NetWorkingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8CA74B1D71C62E0072EE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8CA75B1D71C62E0072EE7F /* LaunchScreen.storyboard in Resources */,
+				AB8CA7581D71C62E0072EE7F /* Assets.xcassets in Resources */,
+				AB8CA7561D71C62E0072EE7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		655D4E942E3CFA50F5536298 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCD_NetWorkingDemo/Pods-LCD_NetWorkingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8880867E8A714EB7781C4E3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E55F0CFD5C02862427EDDD84 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LCD_NetWorkingDemo/Pods-LCD_NetWorkingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8CA7491D71C62E0072EE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB20E3EF1D73CA31009042D2 /* LCD_Macros.swift in Sources */,
+				AB20E3F31D73DEEB009042D2 /* BusinessTypeModel.swift in Sources */,
+				AB8CA7751D71E0BE0072EE7F /* LCD_API.swift in Sources */,
+				AB062A941D73398E00AAF3FE /* LCD_JustHelper.swift in Sources */,
+				AB8CA7531D71C62E0072EE7F /* ViewController.swift in Sources */,
+				AB20E3F11D73DE7C009042D2 /* BusinessModel.swift in Sources */,
+				AB20E3F71D7401F2009042D2 /* LCD_AlamofireHelper.swift in Sources */,
+				AB8CA7511D71C62E0072EE7F /* AppDelegate.swift in Sources */,
+				AB20E3F51D7401E2009042D2 /* LCD_Alamofire.swift in Sources */,
+				AB8CA7731D71E0910072EE7F /* LCD_Just.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB8CA7541D71C62E0072EE7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8CA7551D71C62E0072EE7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB8CA7591D71C62E0072EE7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB8CA75A1D71C62E0072EE7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB8CA75D1D71C62E0072EE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8CA75E1D71C62E0072EE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8CA7601D71C62E0072EE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9302E83EEAA5C38C3E6D7B55 /* Pods-LCD_NetWorkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCD_NetWorkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sifenzi.LCD-NetWorkingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB8CA7611D71C62E0072EE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA1B29C681D1CA2DA1743D4 /* Pods-LCD_NetWorkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LCD_NetWorkingDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sifenzi.LCD-NetWorkingDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8CA7481D71C62E0072EE7F /* Build configuration list for PBXProject "LCD_NetWorkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CA75D1D71C62E0072EE7F /* Debug */,
+				AB8CA75E1D71C62E0072EE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8CA75F1D71C62E0072EE7F /* Build configuration list for PBXNativeTarget "LCD_NetWorkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8CA7601D71C62E0072EE7F /* Debug */,
+				AB8CA7611D71C62E0072EE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8CA7451D71C62E0072EE7F /* Project object */;
+}

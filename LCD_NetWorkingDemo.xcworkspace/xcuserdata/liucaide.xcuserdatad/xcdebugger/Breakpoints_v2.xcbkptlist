@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LCD_NetWorkingDemo/LCD_Class/LCD_Just/LCD_Just.swift"
+            timestampString = "494143978.438194"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "just_Net(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LCD_NetWorkingDemo/LCD_Class/LCD_SwiftHTTP/LCD_SwiftHTTPHelper.swift"
+            timestampString = "494215000.37885"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "getDatas(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LCD_NetWorkingDemo/LCD_Class/LCD_SwiftHTTP/LCD_SwiftHTTPHelper.swift"
+            timestampString = "494213675.262472"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getDatas(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LCD_NetWorkingDemo.LCD_SwiftHTTPHelper.getDatas ((Swift.Optional&lt;Swift.Array&lt;LCD_NetWorkingDemo.BusinessModel&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "LCD_NetWorkingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liucaide/Desktop/MyWorking/LCD_NetWorkingDemo/LCD_NetWorkingDemo/LCD_Class/LCD_SwiftHTTP/LCD_SwiftHTTPHelper.swift"
+                  timestampString = "494213799.841619"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LCD_NetWorkingDemo.LCD_SwiftHTTPHelper.(getDatas ((Swift.Optional&lt;Swift.Array&lt;LCD_NetWorkingDemo.BusinessModel&gt;&gt;, Swift.Optional&lt;Swift.Bool&gt;) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "LCD_NetWorkingDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liucaide/Desktop/MyWorking/LCD_NetWorkingDemo/LCD_NetWorkingDemo/LCD_Class/LCD_SwiftHTTP/LCD_SwiftHTTPHelper.swift"
+                  timestampString = "494213799.841774"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
