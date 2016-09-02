@@ -18,12 +18,11 @@ enum AlamofireType {
     case GET(urlString: String, parameters: [String:AnyObject])
     case POST(urlString: String, parameters: [String:AnyObject])
     
-    static let netError    = "数据加载失败!\n可能是网络信号差或没有连接网络"
-    static let serverError = "无法连接到服务器"
-    static let noData      = "没有数据！"
-    static let noUrl       = "连接错误！"
     
-    func just_Net(completion: (AnyObject?,String?, Bool) -> Void) {
+    static let noData      = "没有数据！"
+    
+    
+    func alamofire_Net(completion: (AnyObject?,String?, Bool) -> Void) {
         var error = ""
         var isOk = false
         switch self {

@@ -32,7 +32,7 @@ enum LCD_AlamofireHelper {
             // 将可变参数添加到参数表中
             param += LCD_AlamofireHelper._param2
             //执行请求
-            AlamofireType.POST(urlString: URL_getNearBusiness, parameters: param).just_Net({ (response, error, isOk) in
+            AlamofireType.POST(urlString: URL_getNearBusiness, parameters: param).alamofire_Net({ (response, error, isOk) in
                 if isOk {
                     let json = JSON(response!)
                     var datas = [BusinessModel]()
@@ -64,7 +64,7 @@ enum LCD_AlamofireHelper {
             // 将可变参数添加到参数表中
             param += LCD_AlamofireHelper._param1
             //执行请求
-            AlamofireType.POST(urlString: URL_getDefaultShopProducts, parameters: param).just_Net({ (response, error, isOk) in
+            AlamofireType.POST(urlString: URL_getDefaultShopProducts, parameters: param).alamofire_Net({ (response, error, isOk) in
                 
                 
             })
